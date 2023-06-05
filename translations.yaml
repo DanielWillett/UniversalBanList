@@ -1,0 +1,6 @@
+commands:
+  player_not_found: "<#ff8c69>Unrecognized Player or Steam64 ID."
+  ubans_no_bans: "<#b3ffb3>No Universal Bans for {Steam64}."
+  ubans_bans_entry: "<#b3ffb3>Universal Ban: #{Ban.Id}. Banned By {Ban.Staff.DisplayName} on {Ban.Network.DisplayName}. Reason: {Ban.Reason}."
+  ubanwhitelists_add_success: "<#b3ffb3>Added whitelists for {BanCount} ban{s} for {Steam64}."
+  ubanwhitelists_remove_success: "<#b3ffb3>Removed {Count} whitelist{s} for {Steam64}"

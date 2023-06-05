@@ -1,0 +1,11 @@
+enabled: true
+banlist_api:
+  # for Web API source:
+  api_endpoints:
+    query_bans:
+      base_endpoint: "url_base"
+database:
+  use_mysql: true
+  mysql_whitelist_table: "whitelists"
+  ConnectionStrings:
+    default: "Server=127.0.0.1;Database=unturned;Port=3306;User=username;Password=password"
